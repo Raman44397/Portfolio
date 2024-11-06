@@ -1,5 +1,7 @@
 *{
-   font-family: sans-serif,serif;
+   font-family: 'Lumios brush ragular';
+   font-weight: normal;
+   font-style: italic;
 }
 
 
@@ -145,6 +147,9 @@
    gap: 10px;
 
 }
+.skill-left h3{
+   padding-bottom: 30px;
+}
 .info p{
    padding-top: 25px;
 }
@@ -217,6 +222,56 @@
 }
 
 /* Additional skill part */
+.circle-main{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   padding-top: 30px;
+}
+.circle{
+   display: flex;
+   width: 200px;
+   padding-bottom: 40px;
+   border-radius: 8px;
+   /* background-color: rgb(119, 108, 108); */
+   flex-direction: column;
+   align-items: center;
+}
+.circular-bar{
+   position: relative;
+   height: 100px;
+   width: 100px;
+   border-radius: 50%;
+   background: conic-gradient(#7324f3 3.6deg, #ededed 0deg);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.circular-bar::before{
+   content: "";
+   position: absolute;
+   height: 80px;
+   width: 80px;
+   border-radius: 50%;
+   background-color: white;
+}
+.process-bar{
+   position: relative;
+   font-weight: 400;
+   font-size: 15px;
+}
+.process-text{
+   font-size: 15px;
+   padding-top: 5px;
+   font-weight: 550;
+}
+
+
+
+
+
+
+
+
 
 
 /* PROJECT SECTION */
